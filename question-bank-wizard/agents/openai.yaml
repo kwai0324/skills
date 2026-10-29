@@ -1,0 +1,4 @@
+interface:
+  display_name: "分步出题助手"
+  short_description: "根据题库程序规范逐步确认课程、层次、题型和数量，生成并校验最终题库"
+  default_prompt: "请使用 $question-bank-wizard，按照题库生成工具的规范，每轮询问1个步骤，最后生成题目、答案和解析。"
